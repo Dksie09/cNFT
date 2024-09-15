@@ -20,6 +20,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  color: #0a0a0a;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
