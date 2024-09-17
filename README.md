@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Create Your Own cNFT Collection
+
+A fun project project allows you to create a Compressed NFT (cNFT) collection featuring your profile picture and social links as metadata, and airdrop it to your friends.
+
+<img src="https://github.com/user-attachments/assets/7edabcf7-7d80-47a5-84f1-4908952380c0" alt="Screenshot of cNFTs from my wallet" width="500">
 
 ## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Clone the repository:
+   ```
+   git clone https://github.com/Dksie09/cNFT
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Modify the metadata:
+   Edit the file `lib/metadata.ts` to include your personal information and social links.
 
-## Learn More
+### Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. Start the development server:
+   ```
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Open your browser and navigate to `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Upload the file containing all the recipient addresses.
 
-## Deploy on Vercel
+4. Click the "Mint" button to create and airdrop your cNFTs.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Easy-to-use interface for minting cNFTs
+- Batch airdrop functionality
+
+## Resources
+- https://developers.metaplex.com/bubblegum/getting-started/js
+- https://developers.metaplex.com/bubblegum/guides/javascript/how-to-create-1000000-nfts-on-solana#full-code-example
+- https://solana.com/developers/guides/javascript/compressed-nfts
