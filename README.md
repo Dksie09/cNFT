@@ -2,6 +2,9 @@
 
 A fun project project allows you to create a Compressed NFT (cNFT) collection featuring your profile picture and social links as metadata, and airdrop it to your friends.
 
+
+*A sneak peek into cNFTs airdropped by fellows to my wallet*
+
 <img src="https://github.com/user-attachments/assets/7edabcf7-7d80-47a5-84f1-4908952380c0" alt="Screenshot of cNFTs from my wallet" width="500">
 
 ## Getting Started
